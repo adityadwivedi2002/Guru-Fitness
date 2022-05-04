@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guru Fitness</title>
+    <link rel="stylesheet" href="gym.css">
+    <style>
+        body {
+            color: white;
+            margin-top: -14px;
+            padding: 0px;
+            background: url(body3.png);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .left {
+            position: absolute;
+
+        }
+
+        .mid {
+            width: 50%;
+            margin-left: 330px;
+            margin-top: 30px;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 30px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+            filter: invert(100%);
+            margin: -51px;
+            margin-left: 28px;
+            height: 159px;
+            width: 165px;
+            float: left;
+        }
+
+        .left div {
+            text-align: center;
+
+            margin-top: 62px;
+            margin-left: 68px;
+
+        }
+
+        .btn {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(68, 66, 66);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin-top: 140px;
+            padding: 25px;
+            width: 33%;
+            border-radius: 42px;
+
+        }
+
+        .form input {
+            text-align: center;
+            display: block;
+            width: 208px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 14px;
+            border-radius: 8px;
+        }
+
+        .container h3 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 49%;
+            margin: 20px auto;
+            border-radius: 67px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="pngwing.com.png" alt="">
+            <div>Guru Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Services</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join The Best gym Mumbai Now</h3>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Enter Your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
